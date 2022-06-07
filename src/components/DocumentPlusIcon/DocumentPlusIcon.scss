@@ -1,0 +1,23 @@
+@import '../../scss/index.scss';
+
+.documentIcon{
+    width: 100% !important;
+    display: block;
+    &__doc {
+        font-size: 26px;
+        margin-right: 8px;
+    }
+    &__name {
+        color: $link-color;
+        text-decoration: underline;
+        cursor: pointer;
+
+        &:hover {
+            color: $info-color;
+        }
+    }
+    &__hour {
+        margin-left: 1em;
+        font-weight: 500;
+    }
+}
